@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    padding: 50px 20px;
+    background: linear-gradient(to right, #4a90e2, #50b3a2);
+    color: white;
+}
+
+.highlight {
+    color: #ffcc00;
+}
+
+.primary-btn, .secondary-btn {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.primary-btn {
+    background-color: #ffcc00;
+    color: #333;
+}
+
+.secondary-btn {
+    background-color: white;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.features {
+    padding: 40px;
+}
+
+.feature-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feature-item {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.pricing {
+    padding: 40px;
+}
+
+.pricing-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    padding: 20px;
+    background-color: #50b3a2;
+    color: white;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
