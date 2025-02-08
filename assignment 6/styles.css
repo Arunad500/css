@@ -2,86 +2,75 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
     text-align: center;
 }
-
 header {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background-color: #f8f9fa;
+    max-width: 1200px;
+    margin: auto;
 }
-
-nav a {
-    margin: 0 10px;
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+ul li a {
     text-decoration: none;
     color: #333;
 }
-
+.btn {
+    background: blue;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
 .hero {
-    padding: 50px 20px;
-    background: linear-gradient(to right, #4a90e2, #50b3a2);
+    padding: 50px;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
     color: white;
 }
-
-.highlight {
-    color: #ffcc00;
-}
-
-.primary-btn, .secondary-btn {
-    padding: 10px 20px;
-    margin: 10px;
-    border: none;
-    cursor: pointer;
-}
-
-.primary-btn {
-    background-color: #ffcc00;
-    color: #333;
-}
-
-.secondary-btn {
-    background-color: white;
-    color: #333;
-    border: 1px solid #ccc;
-}
-
-.features {
+.features, .pricing, .faqs {
     padding: 40px;
-}
-
-.feature-grid {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.feature-item {
-    background-color: #f8f9fa;
-    padding: 20px;
+    background: #fff;
+    margin: 20px auto;
+    max-width: 1000px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
-
-.pricing {
-    padding: 40px;
-}
-
-.pricing-cards {
+.plans {
     display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.card {
+    justify-content: space-around;
     padding: 20px;
-    background-color: #50b3a2;
-    color: white;
-    border-radius: 8px;
 }
-
+.plan {
+    background: #ececec;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+}
 footer {
-    background-color: #333;
+    background: #222;
     color: white;
-    padding: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+button {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
